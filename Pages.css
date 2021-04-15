@@ -1,0 +1,247 @@
+.inner-pannel h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: left;
+  color: #000000;
+  padding-left: 11px;
+}
+.top-cta {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.title-section {
+  position: relative;
+  margin-bottom: 50px;
+}
+.btn-left,
+.btn-right {
+  justify-content: flex-end;
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.btn-white {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px 20px 15px;
+  border: 0.5px solid #000000;
+  min-width: 200px;
+  cursor: pointer;
+}
+.btn-black {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px 20px 15px;
+  border: none;
+  min-width: 200px;
+  cursor: pointer;
+}
+.btn-black svg,
+.btn-white svg {
+  position: relative;
+  top: 2px;
+}
+@media only screen and (max-width: 1000px) {
+  .btn-left,
+  .btn-right {
+    width: fit-content;
+    height: fit-content;
+  }
+  .btn-left {
+    margin-left: 32vw;
+  }
+}
+.shadowbox {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 999;
+}
+.shadowbox .contentbox {
+  /* height: 697px; */
+  width: 753px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 48px 52px;
+  box-sizing: border-box;
+}
+.shadowbox .contentbox .tit {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.shadowbox .contentbox .closebtn {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: 52px;
+  top: 48px;
+  cursor: pointer;
+}
+.shadowbox .contentbox .closebtn img {
+  width: 100%;
+}
+.shadowbox .contentbox .txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 7px;
+  width: 100%;
+  height: 61px;
+}
+.shadowbox .contentbox .inputline {
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 30px;
+}
+.shadowbox .contentbox .inputline .tag {
+  position: absolute;
+  left: 30px;
+  top: -10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #fff;
+  color: #989898;
+}
+.shadowbox .contentbox .inputline input {
+  line-height: 53px;
+  height: 53px;
+  padding-left: 30px;
+  text-align: left;
+  color: #333;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+.shadowbox .contentbox .inputline textarea {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+  width: 612px;
+  outline: none;
+  margin: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border: none;
+}
+.shadowbox .contentbox .inputline.mainemail {
+  height: auto;
+}
+.shadowbox .contentbox .inputmain.email {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shadowbox .contentbox .inputmain.email span {
+  background: #FAFAFA;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 34px;
+  height: 34px;
+  padding: 0 35px 0 12px;
+  position: relative;
+  margin: 10px 0 0 10px;
+}
+.shadowbox .contentbox .inputmain.email img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+.shadowbox .contentbox .inputmain.email input {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0);
+  width: auto;
+}
+.shadowbox .contentbox .inputline.textarea {
+  height: 234px;
+  height: auto;
+}
+.shadowbox .contentbox .inputline.textarea textarea {
+  height: 196px;
+  resize: none;
+}
+.hide {
+  display: none;
+}
+.btnline{
+  padding: 0 50px 0 50px;
+  overflow: hidden;
+}
+.btnline a{
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 53px;
+  height: 53px;
+  width: 192px;
+  float: right;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+#send{
+  background: #000000;
+  border: 0.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 90px;
+  color: #fff;
+}
+#sent{
+  background: #FFFFFF;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  color: #000;
+  border-radius: 90px;columns: #fff;
+}
